@@ -1,0 +1,23 @@
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #E7E8EC;
+}
+
+@media screen and (max-width: 767px) {
+    .block {
+        padding-top: 215px;
+    }
+
+    .message {
+        padding: 25px 40px;
+        font-size: 35px;
+        border-bottom: 3px solid #E7E8EC;
+        font-weight: bold;
+    }
+}
